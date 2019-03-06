@@ -7,7 +7,7 @@ public class HelloWorld {
 		System.out.println("Hello world");
 	
 		int i = 100 ; 
-//		String name = "Akbar" ; 
+		String name = "Akbar" ; 
 //		
 //		String sentence = " is teaching Java online for 7_month ! ";   
 //		
@@ -32,7 +32,7 @@ public class HelloWorld {
 		  * 
 		  * */
 		
-		String name = "Mustafa Erol" ;
+		String name2 = "Mustafa Erol" ;
 		String city = "Dallas" ;
 		String state = "Texas";
 		String nationality="Turkish";
