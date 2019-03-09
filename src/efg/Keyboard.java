@@ -41,6 +41,7 @@ public class Keyboard {
 		System.out.println(  z  );
 		System.out.println(score);
 		
+		
 		/*
 		 * Naming variable 
 		 *  	  is this a valid name for a variable 
