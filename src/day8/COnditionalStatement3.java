@@ -9,7 +9,7 @@ public class COnditionalStatement3 {
 		boolean isTopicFinished = true;
 
 		// if the variable itself is boolean type == true is optional
-		// if( isTimeToEndClass ){
+		// if( isTimeToEndClass ){ // this is the shortcut
 
 		if (isTimeToEndClass == true && isTopicFinished == true) {
 			System.out.println("OK lets end the class");
