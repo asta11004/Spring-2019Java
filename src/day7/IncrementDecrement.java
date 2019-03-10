@@ -26,7 +26,7 @@ public class IncrementDecrement {
 		
 		//x = x++ + ++x ; // 3 + 5 = 8  
 		
-		x = x++ + --x + x-- + x ;  //3 + 3 + 3 + 2 = 11 
+		//x = x++ + --x + x-- + x ;  //3 + 3 + 3 + 2 = 11 
 		// step 1  x++ --> 3  but next time it shows up it will be 4
 		// step 2  --x at this moment x showed up so value of x is 4 
 					// since currently x= 4 ->>  --x will immediately generate x=3
