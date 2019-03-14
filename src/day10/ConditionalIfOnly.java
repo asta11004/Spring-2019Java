@@ -18,6 +18,8 @@ public class ConditionalIfOnly {
 			System.out.println("Slack can not take more than 22 char");
 			//lengthOfName = 21 ; 
 			System.out.println("user name has been adjusted");
+		}else if(lengthOfName>18){
+			System.out.println("Looks like good length");
 		}
 		
 		System.out.println("Successfully added user");
