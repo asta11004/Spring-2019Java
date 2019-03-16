@@ -18,6 +18,7 @@ public class VariableScope {
 			System.out.println(y);
 		
 		}
+		
 		// out of scope 
 		// items created inside bedroom can not be accessed inside living room 
 		//System.out.println(y);
