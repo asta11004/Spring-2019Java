@@ -2,7 +2,7 @@ package day12;
 
 import java.util.Scanner;
 
-public class DayPrinter {
+public class DayPrinter2 {
 
 	public static void main(String[] args) {
 		// Task 4
@@ -34,30 +34,30 @@ public class DayPrinter {
 		Scanner scan = new Scanner(System.in);
 
 		System.out.println("Enter Day number : ");
-		int dayNum = scan.nextInt();
+		String dayNum = scan.next();
 		String dayWord = "Unknown";
 
 		switch (dayNum) {
 
-		case 1:
+		case "1":
 			dayWord = "Monday";
 			break;
-		case 2:
+		case "2":
 			dayWord = "Tuesday";
 			break;
-		case 3:
+		case "3":
 			dayWord = "Wendesday";
 			break;
-		case 4:
+		case "4":
 			dayWord = "Thursday";
 			break;
-		case 5:
+		case "5":
 			dayWord = "Friday";
 			break;
-		case 6:
+		case "6":
 			dayWord = "Saturday";
 			break;
-		case 7:
+		case "7":
 			dayWord = "Sunday";
 			break;
 
