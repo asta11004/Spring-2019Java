@@ -2,7 +2,7 @@ package day12;
 
 import java.util.Scanner;
 
-public class ConditionalReview {
+public class ConditionalReview2 {
 
 	public static void main(String[] args) {
 		
@@ -31,19 +31,18 @@ public class ConditionalReview {
 		  weather=s.next();
 		  
 		  /// ALWAYSE USE  str1.equal(str2) for String equality check 
-		  
-//		  if(weather.equalsIgnoreCase("sunny")){
-//		  //if( weather.equals("sunny") ){
-//			  action = "go out";
-//		  }else{
-//			  action =  "stay home";
-//		  }
-		  
 		 
-		 // action = ( weather.equals("sunny") ) ? "go out" : "stay home" ; 
-		  action = ( weather.equalsIgnoreCase("sunny") ) ? "go out" : "stay home" ; 
-			
+		  /// add 2 more condition nice or warm 
 		  
+		  if(weather.equalsIgnoreCase("sunny")  ||  weather.equalsIgnoreCase("nice")     ){
+		 
+			  action = "go out";
+		  }else{
+			  action =  "stay home";
+		  }
+		  action = (weather.equalsIgnoreCase("sunny")  || weather.equalsIgnoreCase("nice") )
+				  		? "go out" : "stay home" ; 
+		   
 		System.out.println("THE ACTION according to weather is : " + action);
 		
 		
