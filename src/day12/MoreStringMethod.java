@@ -13,6 +13,7 @@ public class MoreStringMethod {
 		 * str1.toUpperCase()  ---> return original string with uppercase
 		 * str1.toLowerCase()  ---> return original string with lowercase
 		 * 
+		 * PLEASE COME BACK AT 2:15 PM EST 
 		 * 
 		 * */
 		System.out.println(  weather.toUpperCase()  );

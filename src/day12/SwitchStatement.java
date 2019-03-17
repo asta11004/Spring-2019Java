@@ -13,7 +13,7 @@ public class SwitchStatement {
 		System.out.println("how is weather today?");
 
 		String weather = s.next();
-			   weather = weather.toLowerCase();
+			   //weather = weather.toLowerCase();
 
 		switch(weather){
 		
