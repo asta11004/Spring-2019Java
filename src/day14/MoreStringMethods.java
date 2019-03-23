@@ -30,6 +30,8 @@ public class MoreStringMethods {
 		String name2 = "Dilyara" ; 
 		int count = name2.length() ; 
 		
+		//This is the mentoring windows 
+		
 		System.out.println(  name2.substring(count-1, count)     );
 		
 		System.out.println(  name2.substring(0, 2)     );
