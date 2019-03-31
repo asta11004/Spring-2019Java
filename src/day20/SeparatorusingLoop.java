@@ -25,19 +25,19 @@ public class SeparatorusingLoop {
 			i++ ; 
 		}
 		
-		int y = 0 ; 
-		do {
-			
-			char c = mix.charAt(y);
-			
-			
-			if(c  >= 'a' && c  <= 'z') {
-				System.out.println(c);
-				
-			}
-			y++; 
-			
-		} while (y< mix.length());
+//		int y = 0 ; 
+//		do {
+//			
+//			char c = mix.charAt(y);
+//			
+//			
+//			if(c  >= 'a' && c  <= 'z') {
+//				System.out.println(c);
+//				
+//			}
+//			y++; 
+//			
+//		} while (y< mix.length());
 		
 		
 		System.out.println(  numberStr );
