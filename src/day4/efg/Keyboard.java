@@ -1,4 +1,4 @@
-package efg;
+package day4.efg;
 
 public class Keyboard {
 

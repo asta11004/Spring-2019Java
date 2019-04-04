@@ -1,4 +1,4 @@
-package abc;
+package day4.abc;
 
 public class Letter {
 

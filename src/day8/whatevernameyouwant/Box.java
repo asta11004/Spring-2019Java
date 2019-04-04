@@ -1,4 +1,4 @@
-package whatevernameyouwant;
+package day8.whatevernameyouwant;
 
 public class Box {
 

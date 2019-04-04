@@ -1,4 +1,4 @@
-package mysecondpackage;
+package day8.mysecondpackage;
 
 public class SecondClas {
 

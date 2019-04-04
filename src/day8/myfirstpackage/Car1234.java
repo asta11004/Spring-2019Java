@@ -1,4 +1,4 @@
-package myfirstpackage;
+package day8.myfirstpackage;
 
 public class Car1234 {
 

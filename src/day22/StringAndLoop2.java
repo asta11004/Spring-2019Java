@@ -1,6 +1,6 @@
-package day21;
+package day22;
 
-public class StringAndLoop {
+public class StringAndLoop2 {
 
 	public static void main(String[] args) {
 
