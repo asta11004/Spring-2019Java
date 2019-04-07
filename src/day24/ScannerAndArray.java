@@ -22,7 +22,12 @@ public class ScannerAndArray {
 			System.out.println("enter number " + (i+1) );
 			arr[i] = scan.nextInt();
 			System.out.println( arr[i] );
+		
 		}
+		
+		
+		
+		
 		
 
 	}
