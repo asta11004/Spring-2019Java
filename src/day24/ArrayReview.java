@@ -27,8 +27,12 @@ public class ArrayReview {
 		
 		int[] nums3 =  {1,2,3,4,5,65,6} ; 
 		
+		// the declaration and initilization need to happen in same line 
+//		int[] nums4  ; 
+//		 nums4 =  {1,2,3,4,5,65,6} ; 
 		
-		
+		// getting the count of items 
+		System.out.println(  nums3.length  );
 		
 		
 		
