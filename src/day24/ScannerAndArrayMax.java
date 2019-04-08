@@ -18,17 +18,6 @@ public class ScannerAndArrayMax {
 		}
 		
 		
-		// BAD WAY TO GET THE MAX 
-		// INITIAL VALUE PREFERRABLY THE FIRST ITEM 
-//		int max = 0 ; 
-//		for (int i = 0; i < arr.length; i++) {
-//			
-//			if(arr[i]> max  ) {
-//				max = arr[i] ; 
-//			}
-//			
-//		}
-//		System.out.println(max);
 		
 		int min = arr[0] ; 
 		for (int i = 1; i < arr.length; i++) {
@@ -40,11 +29,7 @@ public class ScannerAndArrayMax {
 		}
 		System.out.println("min value is : "+ min);
  		
-		
-		
-		
-		
-		
+
 
 	}
 
