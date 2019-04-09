@@ -57,7 +57,7 @@ public class ReverseA_Number {
 				newNum = newNum*10 + num%10 ;
 				System.out.println("new Number at this iteration: " + newNum);
 				num/=10 ;
-				System.out.println("new Number at this iteration: " + num);
+				System.out.println("num at this iteration: " + num);
 			}
 			
 
