@@ -31,15 +31,15 @@ public class LoopPractice {
 		int count = name.length() ;  // ABC 
 		String reversed = ""; 
 		
-//		while(count>0) {
-//			
-//			System.out.println("reversed variable value before : " + reversed  );					
-//			count-- ; 
-//			reversed  = reversed + name.charAt(count) ; 
-//			//reversed += name.charAt(count)
-//			System.out.println("reversed variable value after : " + reversed  );					
-//		}
-//		System.out.println( "PALINDROME " + name.equals(reversed) );
+		while(count>0) {
+			
+			System.out.println("reversed variable value before : " + reversed  );					
+			count-- ; 
+			reversed  = reversed + name.charAt(count) ; 
+			//reversed += name.charAt(count)
+			System.out.println("reversed variable value after : " + reversed  );					
+		}
+		System.out.println( "PALINDROME " + name.equals(reversed) );
 		
 		
 		
