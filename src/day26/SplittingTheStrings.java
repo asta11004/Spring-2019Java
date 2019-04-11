@@ -19,6 +19,10 @@ public class SplittingTheStrings {
 		System.out.println( Arrays.toString(parts2) );
 		
 		
+		// Splitting by empty space --->>> each characters 
+		
+		
+		
 		
 		
 		
