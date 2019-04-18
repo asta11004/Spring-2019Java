@@ -7,7 +7,7 @@
 Scenario : 
 
 steps 
-1, making internet connection 
+1, making internet connecti on 
 2, navigate to the amazon 
 3, search for items 
 4, add to the cart 
@@ -46,7 +46,7 @@ method observed :
 	*some methods take action and return a value so we can store 
 		example :strObject.length()
 
-3, method that does not take external data when being called 
+3, method that does not take external data/Parameter when being called 
 
 	 strObject.length(); 
 	 strObject.toUpperCase(); 
