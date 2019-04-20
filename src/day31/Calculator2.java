@@ -7,6 +7,8 @@ public class Calculator2 {
 	
 	public static void calculate(char operator,int firstNum, int secNum) {
 		
+		// checking the value of operator for 5 different possible scenario 
+		// as requirement suggest
 		switch (operator) {
 		case '+':
 			System.out.println("result of addition is : " + (firstNum+secNum));
@@ -53,9 +55,7 @@ public class Calculator2 {
 		calculate('/' , 100, 30) ; 
 		calculate('%' , 100, 30) ; 
 		calculate('A' , 100, 30) ; 
-		
-		
-		
+
 	}
 		
 
