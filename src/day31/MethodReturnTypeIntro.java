@@ -19,10 +19,14 @@ public class MethodReturnTypeIntro {
 		int five = giveMeFive() ; 
 		System.out.println(  five );
 		System.out.println( giveMeFive()  );
-		
+		// you may call it like this just as we do with void method 
+		giveMeFive() ; // but the result generated will be lost 
 		
 		String name = giveMeMyName(); 
 		System.out.println( name );
+		// you may call it like this just as we do with void method 
+		giveMeFive() ; // but the result generated will be lost 
+				
 		
 		System.out.println(  name.substring(0,2)   );
 		
