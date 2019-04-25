@@ -11,7 +11,7 @@ public class MethidWIthNoReturnTypeWithPrint {
 
 		//  printSomething() does not return a value when being run 
 		// but println method is expecting a value so it does not compile
-		System.out.println(  printSomething()  );
+		//System.out.println(  printSomething()  );
 		
 		
 	}
