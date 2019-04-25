@@ -7,12 +7,13 @@ public class ReturningMultipleValue2 {
 	// array can be used to return multipe value of same type
 	
 	public static void main(String[] args) {
+		
 		// TODO Auto-generated method stub
 		double[] prices1 = {1.1,3.99, 2.2}; 
 		double[] prices2 = {2.4,2.88}; 
 		
 		double[] prices3 = combineArrays(prices1,prices2); 
-		System.out.println( Arrays.toString(prices3) );
+		System.out.println(Arrays.toString(prices3) );
 		
 		// Below code is created just to show that 
 		// how a test for this code might be written 
