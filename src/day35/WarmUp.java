@@ -22,12 +22,13 @@ public class WarmUp {
 		 */
 		String[] names = { "abc", "c", "hyght" };
 		
-	
-				
 		
 		System.out.println(  findLongestWord("Odiljan","Talmurat","Sulayman","Marat")   );
 		System.out.println(  findLongestWord("Sumeyye","Hafsa","Emre", "Okan","Omer")   );
 
+		System.out.println( findLongestWord( names )  ) ;
+		
+		
 		
 	}
 
