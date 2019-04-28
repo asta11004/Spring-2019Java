@@ -6,7 +6,7 @@ public class VarArgs4 {
 		
 		/// varArgs --is represented in method parameter using ...
 		/*
-		 *  ... CAN ONLY BE USED AS METHOD PARAMTERS 
+		 *  ...CAN ONLY BE USED AS METHOD PARAMTERS
 		 *  IT CAN NOT BE USED ANYWHERE ELSE 
 		 *  
 		 *  Calling a method that have varArg 
@@ -15,8 +15,8 @@ public class VarArgs4 {
 		 *   
 		 *   What if we have more than one parameter in methods 
 		 *   
+		 *    
 		 *    * If there is multiple parameters VarArgs should be last one 
-	
 		 *   Multiple varargs in one method paramters are not allowed 
 		 *   you can have at most one varArg in one method 
 		 *   
