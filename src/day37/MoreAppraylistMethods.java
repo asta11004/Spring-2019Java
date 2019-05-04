@@ -64,8 +64,8 @@ public class MoreAppraylistMethods {
 		
 		
 		// removing items from arrayList 
-				// remove(ItemValue)
-				// remove(index)
+		// remove(ItemValue)
+		// remove(index)
 		
 		numlst.remove(1) ; 
 		System.out.println( numlst );
