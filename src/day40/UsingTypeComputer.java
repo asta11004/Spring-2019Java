@@ -19,12 +19,17 @@ public class UsingTypeComputer {
 		  * 
 		  * */
 		 
-		 Computer myComputer = new Computer(); 
 		 
 		 ArrayList<String> lst = new ArrayList<>();
+		 
+		 
 		 ArrayList<Computer> comlst = new ArrayList<>();
+		 Computer myComputer = new Computer(); 
+
 		 comlst.add(myComputer); 
 		 comlst.add( new Computer() ); 
+		 
+		
 		 
 		 String   str    = new String("actual String"); 
 		 String[] strArr = new String[3] ; 
@@ -35,6 +40,9 @@ public class UsingTypeComputer {
 		 
 		 
 		 printComputer( myComp );
+		 
+		 Computer com1 = getComputer() ; 
+		 
 
 	}
 	
