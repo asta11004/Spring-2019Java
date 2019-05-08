@@ -7,7 +7,7 @@ public class BankActivityClass {
 		
 		BankAccount costumer1= new BankAccount();
 		costumer1.accountHolder="Ashraf";
-		costumer1.balance=2935.6;
+		costumer1.balance= -2935.6;
 		
 		costumer1.showAccountHolder();
 		costumer1.showBalance();

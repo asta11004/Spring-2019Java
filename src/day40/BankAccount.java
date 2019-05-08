@@ -3,9 +3,10 @@ package day40;
 public class BankAccount {
 
 	
-	// 2 instance variable/fields  
+	// 2 instance variable/fields 
+	// it has default access modifier (there is no access modifier)
 	String accountHolder; 
-	double balance ;
+	private double balance ;
 	
 	
 	public void showAccountHolder() {
@@ -13,13 +14,15 @@ public class BankAccount {
 					+ accountHolder);	
 	}
 	
-	public void showBalance() {
+	private void showBalance() {
 		System.out.println("Account balance: "
 					+balance);
 	}
 	// adding 100 to balance current value
-	public void add100Dollar() {
+	void add100Dollar() {
 		balance = balance +100;
+		//showBalance();
+		
 	}
 	
 	// adding <custom > amount dollar to current balance 
