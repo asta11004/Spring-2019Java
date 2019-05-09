@@ -11,6 +11,8 @@ public class UsingTypeComputer {
 
 //		it doesn't work --> ArrayList<int> nums = new ArrayList<>();
 		ArrayList<Integer> nums = new ArrayList<>();
+		nums.add(23);
+		nums.add(65);
 
 		// this collection of objects of our own custom class
 		// so we can have a collection of objects of any custom class
@@ -18,6 +20,7 @@ public class UsingTypeComputer {
 		ArrayList<Computer> computersCollection = new ArrayList<>();
 		// in this step we created computer object
 		Computer mac = new Computer();
+		mac.isPersonal = true;
 
 		// an the with help of method add() we added this object to the
 		// computersCollection
@@ -25,6 +28,9 @@ public class UsingTypeComputer {
 
 		// we are adding object of computer class without reference type
 		computersCollection.add(new Computer());// second time when we are adding object to the collection
+		
+		//new Computer() this is object without reference type	
+		
 		// getComputer() generates object of computer class
 		Computer imac = getComputer();// third time when we are adding object to the collection
 		System.out.println(imac.OS);

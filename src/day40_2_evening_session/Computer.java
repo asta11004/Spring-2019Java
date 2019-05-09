@@ -3,6 +3,7 @@ package day40_2_evening_session;
 public class Computer {
 	// unknown it's a default value for type instance variable (property)
 	// later we can change default values, if they are not final
+	//all these variables are instance variables
 	public String type = "unknown";
 	int ram;
 	double screenSize;
@@ -11,6 +12,8 @@ public class Computer {
 	boolean isPersonal;
 
 	public void printInfo() {
+		//local variable that exists inside a method
+		String info = "";
 		System.out.println("Type: " + type + ", OS: " + OS + ","
 				+ " Color: " + color + ", Ram: " + ram + "GB, Personal? "
 				+ isPersonal);

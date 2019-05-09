@@ -12,6 +12,15 @@ public class Teacher {
 	// it accepts no parameter
 
 	public String getName() {
+		
+		/*
+		 * ENROLL CYBERTEK 
+		 * GO TO SPARTAN BATCH 
+		 * GET EXCLUSIVE ACCESS
+		 * THEN GET THE NAME 
+		 * 
+		 * */
+		
 		return name;
 	}
 
@@ -20,6 +29,12 @@ public class Teacher {
 	// it accepts one parameter so we can pass the new value
 	// and return nothing
 	public void setName(String newName) {
+		/*
+		 * GO TO DMV 
+		 * GET PERMISSION TO CHANGE THE NAME
+		 * AND EVENTUALLY CHANGE THE NAME 
+		 * 
+		 * */
 		name = newName;
 	}
 	// getter method is just like any other method
