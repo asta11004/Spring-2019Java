@@ -6,20 +6,32 @@ public class RaceGround {
 		
 		
 		Vehicle car1 = new Vehicle();
+		
+		//this.setMake(); 
+		
 		car1.setMake ("Tesla");
 		car1.setModel ("Model X");
 		car1.setSpeed(100);
+		
+		//System.out.println(car1.make); 
 		
 		System.out.println(car1.getMake());
 		System.out.println(car1.getModel());
 		
 		car1.increaseSpeed(6);
+		car1.decreaseSpeed(100);
 		
 
 		Vehicle car2 = new Vehicle();
 		car2.setMake ("BMW");
 		car2.setModel ("M6");
 		car2.setSpeed(10);
+		
+		car2.increaseSpeed(60);
+		car2.decreaseSpeed(10);
+		
+		System.out.println( car2.getSpeed() );
+		
 		
 		
 		
