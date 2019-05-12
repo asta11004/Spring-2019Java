@@ -7,6 +7,21 @@ public class Product {
 	private double price; 
 	private String productId;
 	
+	// create a method to set the value of all fields 
+	// 
+	public void initilizeAllFieldValues(String name, float rating, double price, String productId) {
+		
+		this.name = name;
+        this.rating = rating;
+        this.price = price;
+        //this.productId = productId; 
+        // Optionally 
+        // you can do above by calling setter method 
+        setProductId(productId);
+        
+	}
+	
+	
 	public String getName() {
 		return name;
 	}
