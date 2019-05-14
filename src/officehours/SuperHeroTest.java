@@ -7,17 +7,17 @@ import java.util.Scanner;
 public class SuperHeroTest {
 	public static void main(String[] args) {
 	
-		ArrayList<Superhero> superheroes = new ArrayList<>();
+		ArrayList<String> superheroes = new ArrayList<>();
 		// we gonna add (load) super heroes to our collection
-//		superheroes.add("Superman");
-//		superheroes.add("Batman");
-//		superheroes.add("Wonder Woman");
-//		superheroes.add("Flash");
-//		superheroes.add("Aquaman");
-//		superheroes.add("Aladdin");
-//		superheroes.add("Cyborg");
-//		superheroes.add("Captain America");
-//		superheroes.add("Sadir Palwan");
+		superheroes.add("Superman");
+		superheroes.add("Batman");
+		superheroes.add("Wonder Woman");
+		superheroes.add("Flash");
+		superheroes.add("Aquaman");
+		superheroes.add("Aladdin");
+		superheroes.add("Cyborg");
+		superheroes.add("Captain America");
+		superheroes.add("Sadir Palwan");
 		String inputFromUser = "";
 		String randomHero = "";
 		Random random = new Random();
@@ -25,7 +25,7 @@ public class SuperHeroTest {
 		do {
 			// if superhero name was not set, select random name from the collection
 			if (randomHero.isEmpty()) {
-//				randomHero = superheroes.get(random.nextInt(superheroes.size() - 1));
+				randomHero = superheroes.get(random.nextInt(superheroes.size() - 1));
 			}
 			System.out.print("Guess superhero name: ");
 			System.out.println(encryptName(randomHero));
