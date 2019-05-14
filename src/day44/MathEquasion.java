@@ -69,8 +69,8 @@ public class MathEquasion {
 	}
 	
 	public String toString() {
-		return "MathEquasion [operand1=" + operand1 + ", operand2=" + operand2 + ", result=" + result + ", operator="
-				+ operator + "]";
+		return "MathEquasion [operand1=" + operand1 + ", operand2=" + operand2 
+				+ ", operator= <" + operator + "> | result=" + result +  "]";
 	} 
 	
 	
