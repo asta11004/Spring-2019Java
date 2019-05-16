@@ -5,7 +5,7 @@
  * 		RULE : 
  * 			this(arg...)    use this keyword with () and pass arguments if needed
  * 			1, it has to be in first statement of constructor body 
- * 			2, ONLY ONE Call(of any consrtuctor) is allowed inside one constructor 
+ * 			2, ONLY ONE Call(of any constructor) is allowed inside one constructor 
  * 			3 , recursive constructor call is not allowed --- COMPILER ERROR
  	
 				 public Caller() {
@@ -30,7 +30,10 @@
  				will be called each time an object is being created 
  				only a constructor can call another constructor of same class
  					using this(args...)
- 				
+ 		
+ 		
+ 		A constructor can call another method in same class 
+ 		A method CAN NOT CALL constructor in any circumstances using this()		
  				
  				
  				
