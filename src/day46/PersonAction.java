@@ -4,8 +4,9 @@ public class PersonAction {
 
 	public static void main(String[] args) {
 		
-		Person p1 = new Person("Ganisher", 6.1f,'M');
+		
 		Person p2 = new Person("Mavlida", 5.3f,'F');
+		Person p1 = new Person("Ganisher", 6.1f,'M');
 		
 		// static way to access static variable 
 		System.out.println( Person.race );
