@@ -5,6 +5,7 @@ public class StaticMemberAccessLevel {
 	static int staticVar ; 
 	int instanceVar ; 
 	
+	
 	public static void main(String[] args) {
 		
         System.out.println("value of static field num1 : " + staticVar);
@@ -13,7 +14,7 @@ public class StaticMemberAccessLevel {
 	
 		// num3 is instance variable 
 		// we can not access any instance member in static method 
-		//	System.out.println(num3 );
+		System.out.println(instanceVar );
 		
 		StaticMemberAccessLevel s1 = new StaticMemberAccessLevel(); 
 		System.out.println("value of instance filed num3 : " + s1.instanceVar);
