@@ -1,4 +1,4 @@
-package day46;
+package day47;
 
 // static import Arrays.sort method 
 import static java.util.Arrays.sort;
