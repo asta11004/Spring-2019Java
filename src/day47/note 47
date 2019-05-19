@@ -274,10 +274,20 @@ Constructor
 	side node : make sure to have naming conflict with existing methods  
 		 
 
-
-
-
-		 
+	Instance block 
+		it's a block of code that run every time an object 
+		is being created right before constructor class 
+		
+		{
+			your code goes here 
+		}
+	 How is this useful ? 
+	 	if you have block of code that shared among 
+	 	all of your constructor , 
+	 	you can put it in instance block to reduce duplicate 
+	 
+	ANY OCA QUESTION YOU GOT ABOUT INSTANCE BLOCK 
+		just copy everything inside instance block and insert it into each and every constructor 
 
 
 

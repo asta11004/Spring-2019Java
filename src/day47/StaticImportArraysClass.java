@@ -2,6 +2,13 @@ package day47;
 
 // static import Arrays.sort method 
 import static java.util.Arrays.sort;
+// this will import showCurrentCount so we can use it as our own here
+//import static day47.Bike.showCurrentCount;
+
+//this will import every visible static members 
+// so we can use them  as our own here
+import static day47.Bike.*;
+
 
 public class StaticImportArraysClass {
 
@@ -14,6 +21,8 @@ public class StaticImportArraysClass {
 		for (int i = 0; i < nums.length; i++) {
 			System.out.println(nums[i]);
 		}
+		showCurrentCount();
+		System.out.println(  countOfBike   );
 		
 		
 		

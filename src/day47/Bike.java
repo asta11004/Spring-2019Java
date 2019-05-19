@@ -7,7 +7,7 @@ public class Bike {
 	private int speed;
 	private int id;
 	
-	private static int countOfBike ;
+	public static int countOfBike ;
 	
 	private Bike() {
 		//System.out.println("no arg constructor is being called");
