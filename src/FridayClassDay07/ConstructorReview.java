@@ -1,4 +1,5 @@
-package FridayClassDay07;
+
+C package FridayClassDay07;
 
 public class ConstructorReview {
 	
