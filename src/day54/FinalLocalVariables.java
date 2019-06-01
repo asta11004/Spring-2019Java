@@ -9,7 +9,7 @@ public class FinalLocalVariables {
 		// a primitive type store value directly so final variable 
 		// x can not have new value here
 		
-		final int x = 10 ; 
+		final int x = 10 ;
 		//x = 12 ; 
 		
 		// a reference variable store address of the object 
