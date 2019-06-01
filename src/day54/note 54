@@ -65,7 +65,7 @@ Inheritance :
 			}
 
 
-		instnace method 
+		instance method 
 			--- we can define sub class version of the method 
 				 to provide new implementation 
 				---->> Overriding 

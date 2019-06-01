@@ -12,9 +12,9 @@ import day54.soccer.Stadium;
 
 public class SoccerClub {
 
-	int playerCount; 
-	String name; 
-	Stadium st;
+	private int playerCount; 
+	private String name; 
+	private Stadium st;
 	
 	public SoccerClub(int playerCount, String name, Stadium stadium) {
 		this.playerCount = playerCount;
