@@ -1,5 +1,7 @@
 package day53_night_session;
 
+import java.time.LocalDate;
+
 final public class FinalVariables {
 	private final String SEARCH_ENGINE; // this is not a static variable. It's an instance variable.
 	public final String JUNE = "June";
@@ -26,6 +28,7 @@ final public class FinalVariables {
 	
 
 	public static void main(final String[] args) {
+		
 		// final makes variable constant (immutable)
 //		MAX_NUMBER_OF_STUDENTS = 1;
 		System.out.println(FinalVariables.MAX_NUMBER_OF_STUDENTS);
@@ -36,6 +39,8 @@ final public class FinalVariables {
 		System.out.println(obj.SEARCH_ENGINE);
 		final String ssn = "999-012-000"; // it's not mandatory
 //		ssn = "888-012-000"; will not compile...
+		final int x ; 
+		System.out.println("abc");
 	}
 	
 	

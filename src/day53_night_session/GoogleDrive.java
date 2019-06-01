@@ -8,9 +8,10 @@ public class GoogleDrive extends CloudStorage {
 		super(capacity, price, username, password);
 		this.hasGmail = hasGmail;
 	}
-	
-	public void printInfo(int i) { // not overriding any more, because original method has different signature. 
-		System.out.println("Info about cloud storage.."); // it's no overloading, just different method
+	// not overriding any more, because original method has different signature. 
+	 // it's overloading, same method name different parameter list
+	public void printInfo(int i) { 
+		System.out.println("Info about cloud storage..");
 	}
 	
 	public static void changeRegion(String region){
@@ -20,8 +21,11 @@ public class GoogleDrive extends CloudStorage {
 
 	@Override
 	public String toString() {
-		return "GoogleDrive [capacity=" + getCapacity() + ", price=" + getPrice() + ", username=" + getUsername()
-				+ ", password=" + getPassword() + ", hasGmail=" + hasGmail + "]";
+		return "GoogleDrive [capacity=" + getCapacity()
+		+ ", price=" + getPrice() 
+		+ ", username=" + getUsername()
+		+ ", password=" + getPassword() 
+		+ ", hasGmail=" + hasGmail + "]";
 	}
 
 }
