@@ -16,9 +16,9 @@ public abstract class AbstractClassWithNoAbstractMethod {
 	
 	public static void main(String[] args) {
 		
-		
-		AbstractClassWithNoAbstractMethod obj = 
-				new AbstractClassWithNoAbstractMethod() ; 
+//		This code will not compile 
+//		AbstractClassWithNoAbstractMethod obj = 
+//				new AbstractClassWithNoAbstractMethod() ; 
 	}
 	
 	
