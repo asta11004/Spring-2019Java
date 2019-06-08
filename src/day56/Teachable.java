@@ -16,8 +16,15 @@ public interface Teachable {
 	
 	// any method without body or access modifier 
 	// it's automatically public and abstract
-	void canLearn(); 
 	
+	// very common interview | exam questions goes as : 
+	// not providing access modifier in interface 
+	// and overriding the method with default access modifier 
+	// DOES NOT COMPILE !!! 
+	
+	
+	
+	public abstract void canLearn(); 
 	public abstract void doHomeWork(); 
 	
 	

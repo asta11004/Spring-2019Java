@@ -8,11 +8,15 @@ package day56;
 
 public class OnlineStudent implements Teachable{
 
+	//public static final boolean STUDY_HARD = true; 
+		
 	@Override
 	public void canLearn() {
 		System.out.println("can learn by hardwork");
 	}
 
+
+	
 	@Override
 	public void doHomeWork() {
 		System.out.println("will do all homeworks");
