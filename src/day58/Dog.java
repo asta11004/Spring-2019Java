@@ -9,7 +9,10 @@ public class Dog extends Animal
 	public void makeNoise() {
 		System.out.println("WOOF WOOF");
 	}
-	
+	@Override
+	public String toString() {
+		return "DOG VERSION OF TOSTRING" ; 
+	}
 //	public static void doStatic() {
 //		System.out.println("Dog Static");
 //	}
