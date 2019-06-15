@@ -9,7 +9,7 @@ public class Petsmart {
 
 		animal.speak();
 		animal.sleep();
-//		Animal sharik =  (Dog)animal;
+		Dog sharik =  (Dog) animal;
 		// Cat and Dog class they are siblings
 		// they don't know about each other
 		// casting is not working

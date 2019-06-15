@@ -1,4 +1,4 @@
-package day58;
+package day61;
 
 public class Cat extends Animal implements IndoorPet {
 	
