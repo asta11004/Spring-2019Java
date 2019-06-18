@@ -23,8 +23,6 @@ public class ElectronicShop {
 		AirConditioner ac = (AirConditioner) item1 ; 
 		ac.controlTemp();
 		
-		
-		
 		//((AirConditioner) item1).controlTemp(); 
 		
 		

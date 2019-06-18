@@ -1,7 +1,7 @@
 package day50.diffPackage;
 
-import Day52.Tiger;
 import day51.Animals;
+import day52.Tiger;
 
 public class Lion extends Tiger{
 	

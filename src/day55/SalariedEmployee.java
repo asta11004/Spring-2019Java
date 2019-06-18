@@ -55,6 +55,13 @@ public class SalariedEmployee extends Employee{
 		return "SalariedEmployee [monthlySalary=" 
 	+ monthlySalary + ", id=" + getId() 
 	+ ", name=" + getName()			+ "]";
+	}
+
+
+	@Override
+	public boolean isIn100KClub() {
+		// TODO Auto-generated method stub
+		return false;
 	} 
 	
 	
