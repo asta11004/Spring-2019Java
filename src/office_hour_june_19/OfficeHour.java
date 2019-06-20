@@ -1,4 +1,4 @@
-package officehour_619;
+package office_hour_june_19;
 
 public class OfficeHour {
 
