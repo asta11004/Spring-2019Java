@@ -138,15 +138,19 @@ public class day01 {
 		 
 		 14. What is toString method in java.
 		 			it's a methods used for converting object to String.
+		 			
 		  
 		 15. Did you use Encapsulation in your framework? How ? What’s the befits of
-		 using encapsulation?
+		 	using encapsulation?
+		 			Yes, 
 		 
-		 * 
-		 * Your assignment: 1. Create a return method that can remove duplicated values
-		 * from an int Array. Do not use Set interfaces. 2. Create a method that can
-		 * divide two numbers without using division operators and Math class.
-		 * 
+		  
+		 Your assignment: 
+		 
+		 1. Create a return method that can remove duplicated values from an ArrayList. Do not use Set interfaces. 
+		 
+		 2. Create a method that can divide two numbers without using division operators and Math class.
+		  
 		 * 
 		 */
 			
