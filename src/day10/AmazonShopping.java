@@ -35,16 +35,6 @@ public class AmazonShopping {
 		}
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-
-
 	}
 
 }

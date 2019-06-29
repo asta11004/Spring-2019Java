@@ -1,7 +1,5 @@
 package day62;
 
-import java.io.IOException;
-
 public class DangerZone {
 
 	public static void main(String[] args) {
