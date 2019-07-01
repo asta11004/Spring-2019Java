@@ -75,7 +75,7 @@ public class ReverseThinking_isMagic2 {
 			}
 			
 			if(targetSum!= rowSum) {
-				System.out.println("ROW SUM DID NOT MATCH");
+				System.out.println((k+1) + " ROW SUM DID NOT MATCH");
 				return false ; 
 			}
 			System.out.println((k+1) + "MATCH :  row Sum is " + rowSum);
@@ -86,9 +86,9 @@ public class ReverseThinking_isMagic2 {
 			for (int row = 0; row < itemCount; row++) {
 				colSum +=  twoDArr[row][k] ; 
 			}
-			System.out.println((k+1) + "col Sum is " + colSum);
+			
 			if(targetSum!= colSum) {
-				System.out.println("COL SUM DID NOT MATCH");
+				System.out.println((k+1) + " COL SUM DID NOT MATCH");
 				return false ; 
 			}
 			System.out.println((k+1) + "MATCH :  COL Sum is " + colSum);
@@ -107,7 +107,6 @@ public class ReverseThinking_isMagic2 {
 			return false ; 
 		}
 		System.out.println("EACH AND EVERY DIAGNAL SUM THE SAME AT THIS POINT");
-		
 		
 		return true;
 	}
