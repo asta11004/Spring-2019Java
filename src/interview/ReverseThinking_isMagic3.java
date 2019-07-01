@@ -76,8 +76,8 @@ public class ReverseThinking_isMagic3 {
 			// will have to change the variable name to avoid confusion though 
 			for (int m = 0; m < itemCount; m++) {
 				
-				rowSum +=   twoDArr[k][m] ; 
-				colSum +=   twoDArr[m][k] ; 
+				rowSum +=   twoDArr[k][m] ;  // using k as row number m as column number
+				colSum +=   twoDArr[m][k] ;  // using m as row number k as column number
 				
 			}
 			
