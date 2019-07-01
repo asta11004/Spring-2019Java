@@ -5,9 +5,9 @@ public class ReverseThinking_isMagic {
   public static void main(String[] args) {
 
     int[][] data = {
-              { 3, 3, 3 }, 
-              { 3, 3, 3 }, 
-              { 3, 3, 3 } 
+              { 3, 1, 5 }, 
+              { 5, 3, 1 }, 
+              { 1, 5, 3 } 
              };
     
     int itemCount = data.length;
