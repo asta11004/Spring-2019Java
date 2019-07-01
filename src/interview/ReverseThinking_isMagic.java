@@ -11,7 +11,6 @@ public class ReverseThinking_isMagic {
              };
     
     int itemCount = data.length;
-    int lastIndex = itemCount-1 ; 
     
     System.out.println( isMagic(data)  );
     
