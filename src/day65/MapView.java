@@ -9,8 +9,7 @@ public class MapView {
 
 	public static void main(String[] args) {
 
-		// Set<Map.Entry<K, V>> entrySet();
-
+		
 		Map<String, Double> priceMap = new HashMap<>();
 		System.out.println("priceMap size : " + priceMap.size());
 

@@ -1,6 +1,5 @@
 package day65;
 
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -9,7 +8,6 @@ import java.util.Set;
 public class MapView_EntrySet {
 
 	public static void main(String[] args) {
-
 
 		Map<String, Double> priceMap = new HashMap<>();
 	
@@ -24,10 +22,9 @@ public class MapView_EntrySet {
 		
 		//Set<Map.Entry<K, V>> entrySet();
 		// Map is not an Iterable so we can not iterate over them 
-		// However we can het entrySet view out of the map 
+		// However we can get entrySet view out of the map 
 		// and it will store the keyValue pair as single Entry 
-		// and store it into the Set 
-		
+		// and store it into the Set of Entry<KeyType, ValueType>
 		
 		
 		Set<   Entry<String, Double>    > myEntry = priceMap.entrySet(); 
